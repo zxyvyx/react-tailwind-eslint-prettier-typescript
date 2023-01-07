@@ -1,9 +1,10 @@
 export default function App() {
   return (
-    <>
-      <h1 className="text-3xl text-teal-500 font-bold underline">
+    <div>
+      <button type='button'>Hello</button>
+      <h1 className='text-2xl font-bold text-teal-500 underline'>
         React + Tailwind CSS + ESLint + Prettier + TypeScript
       </h1>
-    </>
+    </div>
   );
 }
